@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#section_header_2_dark .containerss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 340px;
+    padding-right: 340px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(51 51 51);
+}
+#section_header_2_dark .containerss .collapse .navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#section_header_2_dark .containerss .collapse .navbar-right a{
+    text-decoration: none;
+    color: rgb(171 171 171);
+    font-weight: 600;
+}
+#section_header_2_dark .containerss .collapse .navbar-right .text_span{
+    font-weight: 600;
+    color: rgb(220 181 51);
+}
+#section_header_2_dark .containerss .navbar-header .navbar-toggle{
+    display: none;
+}
+#section_pix_4 .container,
+#section_pix_4 .columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* căn giữa ngang */
+    justify-content: center; /* căn giữa dọc nếu cần */
+}
+#section_pix_4 .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+#section_pix_4 .has-video{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#section_pix_4 .section_video video{
+    width: 100%;
+}
+#section_pix_4 .section_wrapper .container .columns{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+#section_pix_4 .section_wrapper .container .columns .title_style .pix_text{
+    font-size: 2rem;
+    color: #fff;
+}
+#section_pix_4 .section_wrapper .container .columns .subtitle_style .pix_text{
+    color: rgb(229 228 227);    
+}
+#section_pix_4 .section_wrapper .container .columns .subtitle_style{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+form#contact_form[pix-confirm="hidden_pix_1"]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 13, 13, 0.8);
+    width: 540px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+#section_pix_4 .section_wrapper .container .columns .email_subscribe .pix_text{
+    background-color: #fff;
+    color: rgb(155 155 155);
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 200px;
+    border-radius: 5px;
+    border: none;
+}
+#section_pix_4 .section_wrapper .container .columns .email_subscribe .subscribe_btn.pix_text{
+    background-color: rgb(241 194 50);
+    color: #fff;
+    padding: 17px;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.65rem;
+    font-weight: 500;
+}
+#section_pix_4 .section_wrapper .container .columns .note_st{
+    color: rgb(229 228 227);  
+    font-size: 0.7rem;
+}
+#result{
+    display: none;
+}
+#hidden_pix_1{
+    display: none;
+}
+#section_university_5 .container .sixteen.columns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 50px;
+}
+#section_university_5 .container .sixteen.columns .alpha .psingle_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#section_university_5 .container .sixteen.columns .alpha .psingle_item .text_st {
+    flex: 1;
+    max-width: 500px;
+}
+#section_university_5 .container .sixteen.columns .alpha .psingle_item .text_st{
+    display: block;
+    justify-content: center;
+}
+#section_university_5 .container .sixteen.columns .alpha .text_st .title_st{
+    font-size: 1.3rem;
+}
+#section_university_5 .container .sixteen.columns .alpha .text_st .subject_st{
+    color: rgb(181 181 181);
+}
+#section_university_5 .container .sixteen.columns .omega{
+    background-color: rgb(235 234 234);
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0;
+}
+#section_university_5 .container .sixteen.columns .omega .title-style{
+    color: rgb(42 42 42);
+    font-size: 1.2rem;
+    padding: 0;
+}
+#section_university_5 .container .sixteen.columns .omega .text-style .pix_text{
+    color: rgb(175 174 174);
+    margin-top: 40px;
+}
+#section_university_5 .container .sixteen.columns .omega #contact_form[pix-confirm="hidden_pix_6"] .pix_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 280px;
+    margin-bottom: 25px;
+}
+#section_university_5 .container .sixteen.columns .omega 
+#contact_form[pix-confirm="hidden_pix_6"] .send_btn .submit_btn {
+    background-color: rgb(124 197 118);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#hidden_pix_6{
+    display: none;
+}
+#section_ecourse_7 .container .bg_foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(246 246 246);
+}
+#section_ecourse_7 .container .bg_foot .alpha .editContent .rights_st{
+    color: rgb(183 183 183);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+#section_ecourse_7 .container .bg_foot .alpha .editContent .rights_st .pixfort_st{
+    color: rgb(103 67 151);
+    font-weight: 550;
+}
+#section_ecourse_7 .container .bg_foot .omega{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+#section_ecourse_7 .container .bg_foot .omega .likes_st .pix_text{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(183 183 183);
+}
+#section_ecourse_7 .container .bg_foot .omega .socbuttons .soc_icons .bottom-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(233 233 233);
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+#section_ecourse_7 .container .bg_foot .omega .socbuttons .soc_icons .bottom-icons .fa-brands{
+    color: rgb(187 187 187);
+}

@@ -1,0 +1,77 @@
+#m1{
+    width: 1200px;
+    background-color: tomato;
+    margin: auto;
+}
+#m1 header{
+    background-color: lightgrey;
+    height: 70px;
+    padding: 10px;
+    font-weight: bold;
+}
+#m1 nav{
+    background-color: aquamarine;
+    height: 50px;
+    padding: 10px;
+}
+#m1 .content #a{
+    float: left;
+    width: 200px;
+    background-color: hsl(60, 100%, 70%);
+    height: 200px;
+}
+#m1 .content #a #header-div{
+    font-weight: bold;
+    margin: none;
+}
+#m1 section{
+    background-color: antiquewhite;
+    height: 200px;
+}
+#m1 footer{
+    background-color: lightgrey;
+    height: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#m2{
+    gap: 10px ;
+    width: 900px;
+    margin: auto;
+}
+
+#m2 header{
+    width: 900px;
+    height: 120px;
+    background-color: orange;
+}
+#m2 .img{
+    width: 900px;
+    height: 400px;
+    background-color: lightgray;
+    text-align: center;
+}
+#m2 .img .footer-img{
+    margin-top: 350px;
+}
+#m2 p{
+    text-align: center;
+    background-color: white;
+}
+#m2 .services{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 200px 200px ;
+    justify-self: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px ;
+}
+#m2 .services .item{
+    display: flex;
+    background: lightgray;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
