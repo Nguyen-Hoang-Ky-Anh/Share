@@ -1,15 +1,109 @@
 *{
     box-sizing: border-box;
+    background-color: rgb(230 230 230);
 }
 body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-form header{
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-weight: bolder;
+    background-color: #fff;
+    gap: 30px;
+    width: 720px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+.container header{
+    font-weight: bold;
     font-size: 1.5rem;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.container .emailAndPhone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+}
+.container .emailAndPhone .smaller{
+    width: 315px;
+}
+.container .emailAndPhone .smaller input{
+    width: 100%;
+}
+.container .input{
+    width: 640px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: rgb(247 247 247);
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+}
+.container .input .label{
+    font-size: 0.6rem;
+    background-color: rgb(247 247 247);
+    color: rgb(47, 47, 47);
+    padding-left: 3px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.container .input input{
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    width: 100%;
+    background-color: rgb(247 247 247);
+    color: rgb(210 209 208);
+}
+.container .input select{
+    border: none;
+    outline: none;
+    background-color: rgb(247 247 247);
+    width: 100%;
+    font-weight: bold;
+    color: rgb(84 86 86);
+}
+.container .input-msg{
+    background-color: #fff;
+    width: 640px;
+    height: 130px;
+    border-radius: 5px;
+    padding: 8px 12px;
+    border: 2px solid rgb(247 247 247);
+}
+.container .input-msg .textarea_label {
+    font-size: 0.6rem;
+    color: rgb(47, 47, 47);
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px 4px;
+    background-color: #fff;
+}
+.container .input-msg textarea{
+    border: none;
+    outline: none;
+    background-color: #fff;
+    width: 620px;
+    height: 70px;
+    font-size: 1.1rem;
+    color: rgb(210 209 208);
+}
+.container .submit_btn{
+    background-color: rgb(51 51 51);
+    width: 640px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
 }

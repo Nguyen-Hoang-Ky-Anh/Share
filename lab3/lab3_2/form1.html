@@ -8,22 +8,33 @@
 </head>
 <body>
     <form action="">
-        <header>Contact us</header>
         <div class="container">
-            <p>FULLNAME*</p>
-            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
-            <div class="emailAndPhone">
-                <p>EMAIL*</p>
-                <input type="email" id="email" name="email" placeholder="Enter Your Email " required>
-                <p>PHONE</p>
-                <input type="number" id="phonenumber" name="phonenumber" placeholder="Enter Number phone">
+            <header>Contact us</header>
+            <div class="input">
+                <p class="label">FULLNAME*</p>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
             </div>
-            <p>NEEDED SERVICES*</p>
-            <select name="ns" id="ns">
+            <div class="emailAndPhone">
+                <div class="input smaller">
+                    <p class="label">EMAIL*</p>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email " required>
+                </div>
+                <div class="input smaller">
+                    <p class="label">PHONE</p>
+                    <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter Number phone">
+                </div>
+            </div>
+            <div class="input">
+                <p class="label">NEEDED SERVICES*</p>
+                <select name="ns" id="ns">
                 <option value="">Please chooses</option>
-            </select><br>
-            <label for="msg">MESSAGE</label><br>
-            <textarea name="msg" id="msg"></textarea><br>
+                </select><br>
+            </div>
+            <div class="input-msg">
+                <p class="textarea_label">MESSAGE</p>
+                <br>
+                <textarea name="msg" id="msg" placeholder="Your message hear"></textarea><br>
+            </div>
             <button class="submit_btn">Submit</button>
         </div>
     </form>
