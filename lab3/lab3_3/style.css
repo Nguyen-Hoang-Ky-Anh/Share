@@ -55,6 +55,10 @@ body{
     color: rgb(78 39 86);
     font-weight: bold;
 }
+.container .input .input-div input:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
 .container .input button{
     width: 140px;
     height: 45px;
@@ -65,6 +69,10 @@ body{
     background-color: rgb(189 89 215);
     border: none;
     box-shadow: 0px 10px 10px 5px rgba(226, 108, 255, 0.2);
+}
+.container .input button:hover{
+    background-color: rgb(225, 106, 255);
+    cursor: pointer;
 }
 .container .anotherOption{
     margin-top: 30px;
@@ -86,10 +94,18 @@ body{
     border-radius: 50%;
     margin-bottom: 10px;
 }
+.container .logoContainer .logoList li:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
 .container .signUp{
     color: rgb(150 131 152);
     font-size: 0.8rem;
     font-weight: bold;
     margin-top: auto; 
     margin-bottom: 20px;
+}
+.container .signUp:hover{
+    color: rgb(189, 89, 215);
+    cursor: pointer;
 }
