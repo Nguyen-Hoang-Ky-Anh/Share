@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="account">
+            <p class="label">Account</p>
+            <input type="text" id="fName" name="fName" placeholder="Full Name" required>
+            <input type="email" id="email" name="email" placeholder="Email Adress" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="dateAndGender">
+            <div class="dateOfBirth">
+                <p class="label">Date of Birth</p>
+                <input type="number" name="day" id="day" placeholder="DD" min="1" max="31" required>
+                <input type="number" name="month" id="month" placeholder="MM" min="1" max="12" required>
+                <input type="number" name="year" id="year" placeholder="YYYY" min="1900" max="2025" required>
+            </div>
+            <div class="gender">
+                <p class="label">Gender</p>
+                <div class="select">
+                    <input type="radio" id = "male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id = "female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+        </div>
+        <div class="paymentDetails">
+            <p class="label">Payment Details</p>
+            <div class="select">
+                <input type="radio" id = "creditCard" name="payment" value="credit" checked>
+                <label for="creditCard">Credit Card</label>
+                <input type="radio" id = "paypal" name="payment" value="paypal">
+                <label for="paypal">Paypal</label>
+            </div>
+            <div class="cardNumber">
+                <input type="number" id="cardNumber" placeholder="Card Number" required>
+            </div>
+            <div class="cvcAndDate">
+                <div class="cvc">
+                    <input type="number" id="cvc" placeholder="Card CVC">
+                </div>
+                <div class="date">
+                    <select name="month" id="monthSelect">
+                        <option value="">01 Jan</option>
+                    </select>
+                    <select name="year" id="yearSelect">
+                        <option value="">2015</option>
+                    </select>
+                </div>
+            </div>
+            <div class="footer">
+                <p class="label">Terms and Conditions</p>
+                <input type="checkbox" id="cb" name="cb" required>
+                <label for="cb">
+                    I accept the terms and conditions for signing up to this service,
+                    and hereby confirm I have read the privacy policy.
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(227 227 227);
+}
+.container{
+    width: 535px;
+    height: 740px;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.container .label{
+    color: rgb(127 211 34);
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.container .account{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.container .account input{
+    width: 100%;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(249 249 249);
+    color: rgb(167 167 167);
+}
+.container .dateAndGender{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.container .dateAndGender .dateOfBirth input{
+    width: 75px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(249 249 249);
+    color: rgb(167 167 167);
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.container .dateAndGender .dateOfBirth input:last-child {
+    margin-right: 0;
+}
+.container .dateAndGender .gender .select{
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    width: fit-content;
+    height: 50px;
+    background-color: rgb(249 249 249);
+    align-items: center;
+}
+.container .dateAndGender .gender .select input[type = "radio"]{
+    display: none;
+}
+.container .dateAndGender .gender .select label {
+    color: rgb(167 167 167);
+    padding: 10px 25px;
+    cursor: pointer;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+}
+.container .dateAndGender .gender .select label:last-child {
+    border-right: none;
+}
+.container .paymentDetails{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.container .paymentDetails .select{
+    display: flex;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    width: fit-content;
+    height: 50px;
+    background-color: rgb(249 249 249);
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.container .paymentDetails .select input[type = "radio"]{
+    display: none;
+}
+.container .paymentDetails .select label{
+    color: rgb(167 167 167);
+    padding: 10px 25px;
+    cursor: pointer;
+    border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 221px;
+    line-height: 50px;
+}
+.container .paymentDetails .select label:last-child{
+    border-right: none;
+}
+.container .paymentDetails .select input[type = "radio"]:checked + label{
+    background-color: rgb(127 211 34);
+    color: #fff;
+}
+.container .paymentDetails .cardNumber{
+    margin-top: 5px;
+}
+.container .paymentDetails .cardNumber{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.container .paymentDetails .cardNumber input{
+    width: 100%;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(249 249 249);
+    color: rgb(167 167 167);
+}
+.container .paymentDetails .cvcAndDate{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.container .paymentDetails .cvcAndDate .cvc{
+    display: flex;
+    align-items: center;    
+}
+.container .paymentDetails .cvcAndDate .cvc input{
+    width: 259px;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(249 249 249);
+    color: rgb(167 167 167);
+    box-sizing: border-box;
+}
+.container .paymentDetails .cvcAndDate .date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 278px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: rgb(249 249 249);
+}
+.container .paymentDetails .cvcAndDate .date select {
+    flex: 1;
+    height: 45px;
+    padding-left: 10px;
+    border: none;
+    background-color: transparent;
+    color: #000;
+    box-sizing: border-box;
+}
+.container .paymentDetails .cvcAndDate .date select:first-child {
+    border-right: 1px solid #ccc;
+}
+.container .footer{
+    margin-top: 10px;
+}
+.container .footer label{
+    color: rgb(195 195 195);
+}
