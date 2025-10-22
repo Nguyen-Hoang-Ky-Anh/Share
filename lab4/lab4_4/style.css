@@ -25,13 +25,15 @@ body{
     border: none;
     font-weight: 500;
 }
-#textarea{
+#textArea{
     border: none;
     outline: none;
     border-radius: 5px;
+    padding: 10px;
 }
-#textFeild{
+#textField{
     border: none;
+    outline: none;
     padding: 10px;
     border-radius: 5px;
 }
